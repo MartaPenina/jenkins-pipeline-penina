@@ -1,3 +1,3 @@
-echo FROM alpine:3.18 > Dockerfile
-echo CMD ["echo", "Hello from Dockerfile"] >> Dockerfile
+echo FROM alpine:3.18 
+echo CMD ["echo", "Hello from Dockerfile"] 
 
