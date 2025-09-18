@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Docker image...'
-                sh 'docker build -t myapp:latest .'
+                sh 'docker build -t peninaapp:latest .'
             }
         }
         stage('Test') {
